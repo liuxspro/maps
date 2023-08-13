@@ -1,0 +1,5 @@
+id: tianditu_province
+name: 天地图省级节点
+import:
+  - 天地图-江苏
+  - 天地图-湖北
