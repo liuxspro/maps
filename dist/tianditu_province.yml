@@ -1,3 +1,8 @@
+id: tianditu_province
+name: 天地图省级节点
+hash: f6ca794e09c626957281384fb49eae00fa352b579fd271e55727ea633676ab68
+lastUpdated: '2023-08-13 16:01:13'
+---
 天地图-江苏:
   - name: 江苏-1966年影像地图
     uri: crs=EPSG:4326&dpiMode=7&format=image/jpgpng&layers=History_yxdt_js_1966&styles=default&tileMatrixSet=default&tilePixelRatio=0&url=http://jiangsu.tianditu.gov.cn/historyraster/rest/services/History/yxdt_js_1966/MapServer/WMTS/1.0.0/WMTSCapabilities.xml
