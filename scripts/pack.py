@@ -89,6 +89,8 @@ def pack(config):
 
 
 def main():
+    if not DIST_DIR.exists():
+        DIST_DIR.mkdir()
     if not SUM_FILE.exists():
         init_summary()
         return
