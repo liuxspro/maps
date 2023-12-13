@@ -85,6 +85,8 @@ def pack(config):
         # 更新 summary
         current_map_sum["hash"] = current_hash
         current_map_sum["lastUpdated"] = current_time
+        # print(current_map_sum)
+        # print(summary)
         save_yaml(summary, SUM_FILE)
 
 
@@ -122,7 +124,7 @@ def main():
         print(f"❎  Remove {key}")
         del summary_data[key]
         DIST_DIR.joinpath(f"{key}.yml").unlink()  # 只是文件的删除
-    save_yaml(summary_data, SUM_FILE)
+        save_yaml(summary_data, SUM_FILE)
 
 
 if __name__ == "__main__":
