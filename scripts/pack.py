@@ -1,13 +1,8 @@
 from pathlib import Path
 
-from utils import (
-    get_hash,
-    get_time,
-    get_yaml_data,
-    get_yaml_data_all,
-    save_yaml,
-    save_yaml_all,
-)
+import yaml
+from utils import calculate_sha256_hash, get_time, get_yaml_data, save_yaml
+from yamlinclude import YamlIncludeConstructor
 
 SRC_DIR = Path(__file__).parent.parent.joinpath("src")
 DIST_DIR = Path(__file__).parent.parent.joinpath("dist")
@@ -28,103 +23,68 @@ def list_configs(config_dir):
     return configs
 
 
-def get_config_data(file_path: Path):
-    # 读取文件夹配置
-    if file_path.is_dir():
-        default = get_yaml_data(file_path.joinpath("default.yml"))
-        import_files = default.get("import")
-        map_data = {}
-        for import_file in import_files:
-            data = get_yaml_data(file_path.joinpath(f"{import_file}.yml"))
-            map_data[import_file] = data
-        del default["import"]
-        return default, map_data
-    info, data = get_yaml_data_all(file_path)
-    return info, data
-
-
-def init_summary():
-    print("Generate New Summary File...")
-    configs = list_configs(SRC_DIR)
-    all_map_info = {}
-    for config in configs:
-        config_path = config["path"]
-        dist_file = DIST_DIR.joinpath(f"{config['name']}.yml")
-
-        info, data = get_config_data(config_path)
-        info["hash"] = get_hash(config_path)
-        info["lastUpdated"] = get_time()
-        all_map_info[info["id"]] = info
-        # 保存地图配置
-        save_yaml_all([info, data], dist_file)
-    # 保存summary
-    save_yaml(all_map_info, SUM_FILE)
-
-
 def pack(config):
     name = config["name"]
-    current_hash = get_hash(config["path"])
-    current_time = get_time()
-    dist_file = DIST_DIR.joinpath(f"{config['name']}.yml")
-
     if config["type"] == "folder":
         print(f"📦 Pack 📁 {name}/")
+        YamlIncludeConstructor.add_to_loader_class(
+            loader_class=yaml.FullLoader, base_dir=config["path"]
+        )
+        with open(config["path"].joinpath("default.yml"), "r", encoding="utf-8") as f:
+            data = yaml.load(f, Loader=yaml.FullLoader)
+            data_hash = calculate_sha256_hash(str(data))
+            save_path = DIST_DIR.joinpath(f"{name}.yml")
+            current_time = get_time()
+            if save_path.exists():
+                old_data = get_yaml_data(save_path)
+                # 移除lastUpdated值
+                old_data["lastUpdated"] = None
+                old_data_hash = calculate_sha256_hash(str(old_data))
+                if data_hash != old_data_hash:
+                    data["lastUpdated"] = current_time
+                    save_yaml(data, save_path)
+                    print(f"\t🔄️ Updated {old_data_hash[:5]} -> {data_hash[:5]}")
+                else:
+                    print("\t↪️  No Update")
+            else:
+                print("\t✨  Create new file")
+                data["lastUpdated"] = current_time
+                save_yaml(data, save_path)
+        a = get_yaml_data(save_path)
+        return {"id": a["id"], "name": a["name"], "lastUpdated": a["lastUpdated"]}
     else:
         print(f"📦 Pack 📄 {name}")
-
-    summary = get_yaml_data(SUM_FILE)
-    current_map_sum = summary[name]
-    if current_hash == current_map_sum["hash"]:
-        print("\t↪️  No Update")
-    else:
-        # 更新地图配置文件
-        info, data = get_config_data(config["path"])
-        info["lastUpdated"] = current_time
-        print(f"\t🔄️ Updated {current_hash[:5]} > {current_map_sum['hash'][:5]}")
-        save_yaml_all([info, data], dist_file)
-        # 更新 summary
-        current_map_sum["hash"] = current_hash
-        current_map_sum["lastUpdated"] = current_time
-        # print(current_map_sum)
-        # print(summary)
-        save_yaml(summary, SUM_FILE)
+        data = get_yaml_data(config["path"])
+        data_hash = calculate_sha256_hash(str(data))
+        save_path = DIST_DIR.joinpath(f"{name}.yml")
+        current_time = get_time()
+        if save_path.exists():
+            old_data = get_yaml_data(save_path)
+            # 移除lastUpdated值
+            old_data["lastUpdated"] = None
+            old_data_hash = calculate_sha256_hash(str(old_data))
+            if data_hash != old_data_hash:
+                data["lastUpdated"] = current_time
+                save_yaml(data, save_path)
+                print(f"\t🔄️ Updated {old_data_hash[:5]} -> {data_hash[:5]}")
+            else:
+                print("\t↪️  No Update")
+        else:
+            print("\t✨  Create new file")
+            data["lastUpdated"] = current_time
+            save_yaml(data, save_path)
+        a = get_yaml_data(save_path)
+        return {"id": a["id"], "name": a["name"], "lastUpdated": a["lastUpdated"]}
 
 
 def main():
     if not DIST_DIR.exists():
         DIST_DIR.mkdir()
-    if not SUM_FILE.exists():
-        init_summary()
-        return
-    summary_data = get_yaml_data(SUM_FILE)
     configs = list_configs(SRC_DIR)
-    # 检查是否有文件增加
+    all_map_info = {}
     for config in configs:
-        if config["name"] in summary_data.keys():
-            pack(config)
-        else:
-            name = config["name"]
-            print(f"✨ New File {name}")
-            info, data = get_config_data(config["path"])
-            info["hash"] = get_hash(config["path"])
-            info["lastUpdated"] = get_time()
-            summary_data[config["name"]] = info
-            # 更新 summary
-            save_yaml(summary_data, SUM_FILE)
-            # 更新地图配置文件
-            save_yaml_all([info, data], DIST_DIR.joinpath(f"{name}.yml"))
-            print("\t🔄️  Added")
-    # 检查文件是否减少
-    del_key = []
-    for key in summary_data.keys():
-        if key not in [x["name"] for x in configs]:
-            del_key.append(key)
-
-    for key in del_key:
-        print(f"❎  Remove {key}")
-        del summary_data[key]
-        DIST_DIR.joinpath(f"{key}.yml").unlink()  # 只是文件的删除
-        save_yaml(summary_data, SUM_FILE)
+        all_map_info[config["name"]] = pack(config)
+    save_yaml(all_map_info, SUM_FILE)
 
 
 if __name__ == "__main__":
