@@ -77,3 +77,16 @@ def save_yaml_all(data: list, file_path: Path):
         yaml.dump_all(
             data, file, sort_keys=False, allow_unicode=True, Dumper=IndentDumper
         )
+
+
+def calculate_sha256_hash(input_string):
+    # 创建一个SHA-256哈希对象
+    sha256_hash = hashlib.sha256()
+
+    # 更新哈希对象的内容
+    sha256_hash.update(input_string.encode("utf-8"))
+
+    # 获取十六进制表示的哈希值
+    result = sha256_hash.hexdigest()
+
+    return result
