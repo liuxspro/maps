@@ -23,6 +23,15 @@ def list_configs(config_dir):
     return configs
 
 
+def get_info(yml_file: Path):
+    info = get_yaml_data(yml_file)["info"]
+    return {
+        "id": info["id"],
+        "name": info["name"],
+        "lastUpdated": info["lastUpdated"],
+    }
+
+
 def pack(config):
     name = config["name"]
     if config["type"] == "folder":
@@ -38,43 +47,41 @@ def pack(config):
             if save_path.exists():
                 old_data = get_yaml_data(save_path)
                 # 移除lastUpdated值
-                old_data["lastUpdated"] = None
+                old_data["info"]["lastUpdated"] = None
                 old_data_hash = calculate_sha256_hash(str(old_data))
                 if data_hash != old_data_hash:
-                    data["lastUpdated"] = current_time
+                    data["info"]["lastUpdated"] = current_time
                     save_yaml(data, save_path)
                     print(f"\t🔄️ Updated {old_data_hash[:5]} -> {data_hash[:5]}")
                 else:
                     print("\t↪️  No Update")
             else:
                 print("\t✨  Create new file")
-                data["lastUpdated"] = current_time
+                data["info"]["lastUpdated"] = current_time
                 save_yaml(data, save_path)
-        a = get_yaml_data(save_path)
-        return {"id": a["id"], "name": a["name"], "lastUpdated": a["lastUpdated"]}
-    else:
-        print(f"📦 Pack 📄 {name}")
-        data = get_yaml_data(config["path"])
-        data_hash = calculate_sha256_hash(str(data))
-        save_path = DIST_DIR.joinpath(f"{name}.yml")
-        current_time = get_time()
-        if save_path.exists():
-            old_data = get_yaml_data(save_path)
-            # 移除lastUpdated值
-            old_data["lastUpdated"] = None
-            old_data_hash = calculate_sha256_hash(str(old_data))
-            if data_hash != old_data_hash:
-                data["lastUpdated"] = current_time
-                save_yaml(data, save_path)
-                print(f"\t🔄️ Updated {old_data_hash[:5]} -> {data_hash[:5]}")
-            else:
-                print("\t↪️  No Update")
-        else:
-            print("\t✨  Create new file")
-            data["lastUpdated"] = current_time
+        return get_info(save_path)
+    # single file
+    print(f"📦 Pack 📄 {name}")
+    data = get_yaml_data(config["path"])
+    data_hash = calculate_sha256_hash(str(data))
+    save_path = DIST_DIR.joinpath(f"{name}.yml")
+    current_time = get_time()
+    if save_path.exists():
+        old_data = get_yaml_data(save_path)
+        # 移除lastUpdated值
+        old_data["info"]["lastUpdated"] = None
+        old_data_hash = calculate_sha256_hash(str(old_data))
+        if data_hash != old_data_hash:
+            data["info"]["lastUpdated"] = current_time
             save_yaml(data, save_path)
-        a = get_yaml_data(save_path)
-        return {"id": a["id"], "name": a["name"], "lastUpdated": a["lastUpdated"]}
+            print(f"\t🔄️ Updated {old_data_hash[:5]} -> {data_hash[:5]}")
+        else:
+            print("\t↪️  No Update")
+    else:
+        print("\t✨  Create new file")
+        data["info"]["lastUpdated"] = current_time
+        save_yaml(data, save_path)
+    return get_info(save_path)
 
 
 def main():

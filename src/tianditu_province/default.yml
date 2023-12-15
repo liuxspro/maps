@@ -1,6 +1,8 @@
-id: tianditu_province
-name: 天地图省级节点
-lastUpdated:
-天地图-江苏: !include 天地图-江苏.yml
-天地图-湖北: !include 天地图-湖北.yml
-天地图-安徽（有偏移）: !include 天地图-安徽（有偏移）.yml
+info:
+  id: tianditu_province
+  name: 天地图省级节点
+  lastUpdated:
+maps:
+  天地图-江苏: !include 天地图-江苏.yml
+  天地图-湖北: !include 天地图-湖北.yml
+  天地图-安徽（有偏移）: !include 天地图-安徽（有偏移）.yml
