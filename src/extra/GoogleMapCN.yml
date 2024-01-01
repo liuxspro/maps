@@ -1,0 +1,18 @@
+- name: Google Map (CN) - Satellite
+  icon: googlemap_satellite.png
+  url: https://gac-geo.googlecnapps.cn/maps/vt?lyrs=s&x={x}&y={y}&z={z}
+  zmin: 0
+  zmax: 21
+  referer: ''
+- name: Google Map (CN) - Roadmap
+  icon: googlemap_default.png
+  url: https://gac-geo.googlecnapps.cn/maps/vt?lyrs=r&x={x}&y={y}&z={z}
+  zmin: 0
+  zmax: 21
+  referer: ''
+- name: Google Map (CN) - Terrain
+  icon: googlemap_terrain.png
+  url: https://gac-geo.googlecnapps.cn/maps/vt?lyrs=p&x={x}&y={y}&z={z}
+  zmin: 0
+  zmax: 21
+  referer: ''
