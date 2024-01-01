@@ -1,0 +1,6 @@
+info:
+  id: extra
+  name: 其他地图
+  lastUpdated:
+maps:
+  谷歌地图中国: !include GoogleMapCN.yml
