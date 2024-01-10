@@ -5,3 +5,4 @@ info:
 maps:
   谷歌地图中国: !include GoogleMapCN.yml
   ESRI - 中国地图: !include EsriCN.yml
+  高德地图: !include Amap.yml
