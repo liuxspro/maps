@@ -1,0 +1,8 @@
+- name: 浙江 - 2022年遥感影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_2022_tweak.xml
+- name: 浙江 - 2021年遥感影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_2021_tweak.xml
+- name: 浙江 - 2020年遥感影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_2020_tweak.xml
+- name: 浙江 - 2019年遥感影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_2019_tweak.xml
