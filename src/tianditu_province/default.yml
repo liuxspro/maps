@@ -5,4 +5,5 @@ info:
 maps:
   天地图-江苏: !include 天地图-江苏.yml
   天地图-湖北: !include 天地图-湖北.yml
+  天地图-浙江: !include 天地图-浙江.yml
   天地图-安徽（有偏移）: !include 天地图-安徽（有偏移）.yml
