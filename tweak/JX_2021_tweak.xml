@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Capabilities version="1.0.0" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0.0/wmtsGetCapabilities_response.xsd"
+    xmlns="http://www.opengis.net/wmts/1.0"
+    xmlns:ows="http://www.opengis.net/ows/1.1"
+    xmlns:gml="http://www.opengis.net/gml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ows:ServiceIdentification>
+        <ows:Title>Web Map Tile Service</ows:Title>
+        <ows:Abstract>江西天地图 - 2021年江西省7-18级影像</ows:Abstract>
+        <ows:Keywords>
+            <ows:Keyword>OGC WMTS 1.0.0</ows:Keyword>
+        </ows:Keywords>
+        <ows:ServiceType>OGC WMTS</ows:ServiceType>
+        <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
+        <ows:Fees>none</ows:Fees>
+        <ows:AccessConstraints>none</ows:AccessConstraints>
+    </ows:ServiceIdentification>
+    <ows:ServiceProvider>
+        <ows:ProviderName>武大吉奥信息技术有限公司</ows:ProviderName>
+        <ows:ProviderSite xlink:href="http://www.geostar.com.cn"/>
+        <ows:ServiceContact>
+            <ows:IndividualName>Mr Lin</ows:IndividualName>
+            <ows:PositionName>Software Engineer</ows:PositionName>
+            <ows:ContactInfo>
+                <ows:Phone>
+                    <ows:Voice>027-87196134</ows:Voice>
+                    <ows:Facsimile>800-880-9008</ows:Facsimile>
+                </ows:Phone>
+                <ows:Address>
+                    <ows:DeliveryPoint>武汉市东湖新技术开发区武大科技园吉奥大厦</ows:DeliveryPoint>
+                    <ows:City>武汉市</ows:City>
+                    <ows:AdministrativeArea>湖北省</ows:AdministrativeArea>
+                    <ows:Country>中国</ows:Country>
+                    <ows:PostalCode>430223</ows:PostalCode>
+                    <ows:ElectronicMailAddress>linjun@geostar.com.cn</ows:ElectronicMailAddress>
+                </ows:Address>
+                <ows:OnlineResource xlink:type="simple" xlink:href="https://jiangxi.tianditu.gov.cn/geostar/JX_IMG_2021/wmts"/>
+            </ows:ContactInfo>
+        </ows:ServiceContact>
+        <ows:RecordTime>2022-12-28 15:42:09</ows:RecordTime>
+    </ows:ServiceProvider>
+    <ows:OperationsMetadata>
+        <ows:Operation name="GetCapabilities">
+            <ows:DCP>
+                <ows:HTTP>
+                    <ows:Get xlink:href="https://jiangxi.tianditu.gov.cn/geostar/JX_IMG_2021/wmts?">
+                        <ows:Constraint name="GetEncoding">
+                            <ows:AllowedValues>
+                                <ows:Value>KVP</ows:Value>
+                            </ows:AllowedValues>
+                        </ows:Constraint>
+                    </ows:Get>
+                </ows:HTTP>
+            </ows:DCP>
+        </ows:Operation>
+        <ows:Operation name="GetVersions">
+            <ows:DCP>
+                <ows:HTTP>
+                    <ows:Get xlink:href="https://jiangxi.tianditu.gov.cn/geostar/JX_IMG_2021/wmts?">
+                        <ows:Constraint name="GetEncoding">
+                            <ows:AllowedValues>
+                                <ows:Value>KVP</ows:Value>
+                            </ows:AllowedValues>
+                        </ows:Constraint>
+                    </ows:Get>
+                </ows:HTTP>
+            </ows:DCP>
+        </ows:Operation>
+        <ows:Operation name="GetVersionInfo">
+            <ows:DCP>
+                <ows:HTTP>
+                    <ows:Get xlink:href="https://jiangxi.tianditu.gov.cn/geostar/JX_IMG_2021/wmts?">
+                        <ows:Constraint name="GetEncoding">
+                            <ows:AllowedValues>
+                                <ows:Value>KVP</ows:Value>
+                            </ows:AllowedValues>
+                        </ows:Constraint>
+                    </ows:Get>
+                </ows:HTTP>
+            </ows:DCP>
+        </ows:Operation>
+        <ows:Operation name="GetTile">
+            <ows:DCP>
+                <ows:HTTP>
+                    <ows:Get xlink:href="https://jiangxi.tianditu.gov.cn/geostar/JX_IMG_2021/wmts?">
+                        <ows:Constraint name="GetEncoding">
+                            <ows:AllowedValues>
+                                <ows:Value>KVP</ows:Value>
+                            </ows:AllowedValues>
+                        </ows:Constraint>
+                    </ows:Get>
+                </ows:HTTP>
+            </ows:DCP>
+        </ows:Operation>
+        <ows:ExtendedCapabilities>
+            <ows:Constraint name="GeoGlobeBuildVersion">
+                <ows:Value>7.6.21214</ows:Value>
+            </ows:Constraint>
+            <ows:Constraint name="96DPIPyramidType">
+                <ows:Value>JX_IMG_2021_7_18_Matrix_0</ows:Value>
+            </ows:Constraint>
+            <ows:Constraint name="OGCPyramidType">
+                <ows:Value>JX_IMG_2021_7_18_Matrix_1</ows:Value>
+            </ows:Constraint>
+            <ows:Constraint name="ArcGISPyramidType">
+                <ows:Value>JX_IMG_2021_7_18_Matrix_2</ows:Value>
+            </ows:Constraint>
+        </ows:ExtendedCapabilities>
+    </ows:OperationsMetadata>
+    <Contents>
+        <Layer>
+            <ows:Title>JX_IMG_2021_7_18</ows:Title>
+            <ows:Abstract>JX_IMG_2021_7_18</ows:Abstract>
+            <ows:Identifier>JX_IMG_2021_7_18</ows:Identifier>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>113.572688336 24.487644373</ows:LowerCorner>
+                <ows:UpperCorner>118.482261599 29.9166698455811</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+            <ows:BoundingBox>
+                <ows:LowerCorner>113.572688336 24.487644373</ows:LowerCorner>
+                <ows:UpperCorner>118.482261599 29.9166698455811</ows:UpperCorner>
+            </ows:BoundingBox>
+            <Style isDefault="true">
+                <ows:Identifier>JX_IMG_2021_7_18</ows:Identifier>
+            </Style>
+            <Format>image/tile</Format>
+            <Format>image/png</Format>
+            <Format>image/jpeg</Format>
+            <Format>image/gif</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>JX_IMG_2021_7_18_Matrix_1</TileMatrixSet>
+            </TileMatrixSetLink>
+        </Layer>
+        <TileMatrixSet>
+            <ows:Identifier>JX_IMG_2021_7_18_Matrix_1</ows:Identifier>
+            <ows:SupportedCRS>urn:ogc:def:crs:EPSG::4490</ows:SupportedCRS>
+            <TileMatrix>
+                <ows:Identifier>7</ows:Identifier>
+                <ScaleDenominator>4367830.269199427</ScaleDenominator>
+                <TopLeftCorner>90.0 -180.0</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>107</MatrixWidth>
+                <MatrixHeight>24</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>8</ows:Identifier>
+                <ScaleDenominator>2183915.1345997173</ScaleDenominator>
+                <TopLeftCorner>90.0 -180.0</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>213</MatrixWidth>
+                <MatrixHeight>47</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>9</ows:Identifier>
+                <ScaleDenominator>1091957.5672998542</ScaleDenominator>
+                <TopLeftCorner>90.0 -180.0</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>425</MatrixWidth>
+                <MatrixHeight>94</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>10</ows:Identifier>
+                <ScaleDenominator>545978.783649929</ScaleDenominator>
+                <TopLeftCorner>90.0 -180.0</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>850</MatrixWidth>
+                <MatrixHeight>187</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>11</ows:Identifier>
+                <ScaleDenominator>272989.3918249645</ScaleDenominator>
+                <TopLeftCorner>90.0 -180.0</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>1699</MatrixWidth>
+                <MatrixHeight>373</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>12</ows:Identifier>
+                <ScaleDenominator>136494.69591248178</ScaleDenominator>
+                <TopLeftCorner>90.0 -180.0</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>3397</MatrixWidth>
+                <MatrixHeight>746</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>13</ows:Identifier>
+                <ScaleDenominator>68247.34795624108</ScaleDenominator>
+                <TopLeftCorner>90.0 -180.0</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>6793</MatrixWidth>
+                <MatrixHeight>1491</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>14</ows:Identifier>
+                <ScaleDenominator>34123.67397812058</ScaleDenominator>
+                <TopLeftCorner>90.0 -180.0</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>13585</MatrixWidth>
+                <MatrixHeight>2982</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>15</ows:Identifier>
+                <ScaleDenominator>17061.83698906029</ScaleDenominator>
+                <TopLeftCorner>90.0 -180.0</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>27169</MatrixWidth>
+                <MatrixHeight>5964</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>16</ows:Identifier>
+                <ScaleDenominator>8530.918494530137</ScaleDenominator>
+                <TopLeftCorner>90.0 -180.0</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>54338</MatrixWidth>
+                <MatrixHeight>11927</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>17</ows:Identifier>
+                <ScaleDenominator>4265.459247265068</ScaleDenominator>
+                <TopLeftCorner>90.0 -180.0</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>108675</MatrixWidth>
+                <MatrixHeight>23853</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>18</ows:Identifier>
+                <ScaleDenominator>2132.729623632539</ScaleDenominator>
+                <TopLeftCorner>90.0 -180.0</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>217349</MatrixWidth>
+                <MatrixHeight>47705</MatrixHeight>
+            </TileMatrix>
+        </TileMatrixSet>
+    </Contents>
+</Capabilities>

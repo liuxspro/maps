@@ -1,0 +1,2 @@
+- name: 江西 - 2021年7-18级影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/tile&layers=JX_IMG_2021_7_18&styles=JX_IMG_2021_7_18&tileMatrixSet=JX_IMG_2021_7_18_Matrix_1&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/JX_2021_tweak.xml
