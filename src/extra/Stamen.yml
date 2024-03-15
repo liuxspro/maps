@@ -1,0 +1,46 @@
+# https://docs.stadiamaps.com/map-styles/alidade-smooth/
+- name: Alidade Smooth
+  url: 'https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}.png'
+  zmin: 0
+  zmax: 20
+  referer: 'https://maps.stamen.com/'
+- name: Alidade Smooth Dark
+  url: 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png'
+  zmin: 0
+  zmax: 20
+  referer: 'https://maps.stamen.com/'
+- name: Alidade Satellite
+  url: 'https://tiles.stadiamaps.com/tiles/alidade_satellite/{z}/{x}/{y}.jpg'
+  zmin: 0
+  zmax: 20
+  referer: 'https://maps.stamen.com/'
+- name: Stadia Outdoors
+  url: 'https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}.png'
+  zmin: 0
+  zmax: 20
+  referer: 'https://maps.stamen.com/'
+- name: Stamen Toner
+  url: 'https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}.png'
+  zmin: 0
+  zmax: 20
+  referer: 'https://maps.stamen.com/'
+- name: Stadia Outdoors
+  url: 'https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}.png'
+  zmin: 0
+  zmax: 20
+  referer: 'https://maps.stamen.com/'
+- name: Stamen Terrain
+  url: 'https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}.png'
+  zmin: 0
+  zmax: 20
+  referer: 'https://maps.stamen.com/'
+- name: Stamen Watercolor
+  url: 'https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg'
+  zmin: 0
+  zmax: 16
+  referer: 'https://maps.stamen.com/'
+- name: OSM Bright
+  url: 'https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}.png'
+  zmin: 0
+  zmax: 20
+  referer: 'https://maps.stamen.com/'
