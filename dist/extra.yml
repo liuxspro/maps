@@ -1,7 +1,7 @@
 info:
   id: extra
   name: 其他地图
-  lastUpdated: '2024-03-17 16:35:59'
+  lastUpdated: '2024-03-26 10:36:37'
 maps:
   谷歌地图中国:
     - name: Google Map (CN) - Satellite
@@ -22,7 +22,7 @@ maps:
       zmin: 0
       zmax: 21
       referer: ''
-  ESRI - 中国地图:
+  ESRI:
     - name: ESRI - 中国地图彩色版
       icon: ESRI.webp
       url: https://map.geoq.cn/ArcGIS/rest/services/ChinaOnlineCommunity/MapServer/tile/{z}/{y}/{x}
@@ -46,6 +46,24 @@ maps:
       url: https://map.geoq.cn/ArcGIS/rest/services/ChinaOnlineStreetPurplishBlue/MapServer/tile/{z}/{y}/{x}
       zmin: 0
       zmax: 18
+      referer: ''
+    - name: ESRI - World Imagery
+      icon: ESRI.webp
+      url: https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}
+      zmin: 0
+      zmax: 18
+      referer: ''
+    - name: ESRI - World Ocean Base
+      icon: ESRI.webp
+      url: https://server.arcgisonline.com/arcgis/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}
+      zmin: 0
+      zmax: 10
+      referer: ''
+    - name: ESRI - World Terrain Base
+      icon: ESRI.webp
+      url: https://server.arcgisonline.com/arcgis/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}
+      zmin: 0
+      zmax: 9
       referer: ''
   高德地图:
     - name: 高德地图 - 影像地图
