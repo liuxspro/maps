@@ -24,19 +24,19 @@
   referer: ''
 - name: ESRI - World Imagery
   icon: ESRI.webp
-  url: 	https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}
+  url: https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}
   zmin: 0
   zmax: 18
   referer: ''
-- name: Esri - World Ocean Base
+- name: ESRI - World Ocean Base
   icon: ESRI.webp
-  url: 	https://server.arcgisonline.com/arcgis/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}
+  url: https://server.arcgisonline.com/arcgis/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}
   zmin: 0
   zmax: 10
   referer: ''
-- name: Esri - World Terrain Base
+- name: ESRI - World Terrain Base
   icon: ESRI.webp
-  url: 	https://server.arcgisonline.com/arcgis/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}
+  url: https://server.arcgisonline.com/arcgis/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}
   zmin: 0
   zmax: 9
   referer: ''
