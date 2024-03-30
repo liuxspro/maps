@@ -1,24 +1,24 @@
 info:
   id: extra
   name: 其他地图
-  lastUpdated: '2024-03-26 10:36:37'
+  lastUpdated: '2024-03-30 22:52:55'
 maps:
-  谷歌地图中国:
-    - name: Google Map (CN) - Satellite
+  谷歌地图:
+    - name: Google Map - Satellite
       icon: googlemap_satellite.png
-      url: https://gac-geo.googlecnapps.cn/maps/vt?lyrs=s&x={x}&y={y}&z={z}
+      url: https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
       zmin: 0
       zmax: 21
       referer: ''
-    - name: Google Map (CN) - Roadmap
+    - name: Google Map - Roadmap
       icon: googlemap_default.png
-      url: https://gac-geo.googlecnapps.cn/maps/vt?lyrs=r&x={x}&y={y}&z={z}
+      url: https://mt1.google.com/vt/lyrs=r&x={x}&y={y}&z={z}
       zmin: 0
       zmax: 21
       referer: ''
-    - name: Google Map (CN) - Terrain
+    - name: Google Map - Terrain
       icon: googlemap_terrain.png
-      url: https://gac-geo.googlecnapps.cn/maps/vt?lyrs=p&x={x}&y={y}&z={z}
+      url: https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z}
       zmin: 0
       zmax: 21
       referer: ''
