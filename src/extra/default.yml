@@ -3,7 +3,7 @@ info:
   name: 其他地图
   lastUpdated:
 maps:
-  谷歌地图中国: !include GoogleMapCN.yml
+  谷歌地图: !include GoogleMap.yml
   ESRI: !include Esri.yml
   高德地图: !include Amap.yml
   Stamen Maps: !include Stamen.yml
