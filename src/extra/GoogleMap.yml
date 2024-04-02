@@ -10,9 +10,9 @@
   zmin: 0
   zmax: 21
   referer: ''
-- name: Google Map - Terrain
+- name: Google Map - Terrain Background
   icon: googlemap_terrain.png
-  url: https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z}
+  url: http://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z}&apistyle=s.e:l|p.v:off,s.t:1|s.e.g|p.v:off,s.t:3|s.e.g|p.v:off
   zmin: 0
   zmax: 21
   referer: ''
