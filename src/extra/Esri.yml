@@ -40,3 +40,9 @@
   zmin: 0
   zmax: 9
   referer: ''
+- name: ESRI - World Physical Map
+  icon: ESRI.webp
+  url: https://server.arcgisonline.com/arcgis/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}
+  zmin: 0
+  zmax: 8
+  referer: ''
