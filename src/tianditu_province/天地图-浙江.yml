@@ -6,3 +6,37 @@
   uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_2020_tweak.xml
 - name: 浙江 - 2019年遥感影像
   uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_2019_tweak.xml
+- name: 浙江 - 2018年遥感影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_2018_tweak.xml
+- name: 浙江 - 2017年遥感影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_2017_tweak.xml
+- name: 浙江 - 2016年遥感影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_2016_tweak.xml
+- name: 浙江 - 2015年遥感影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_2015_tweak.xml
+- name: 浙江 - 2014年遥感影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_2014_tweak.xml
+- name: 浙江 - 2013年遥感影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_2013_tweak.xml
+- name: 浙江 - 2012年遥感影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_2012_tweak.xml
+- name: 浙江 - 2011年遥感影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_2011_tweak.xml
+- name: 浙江 - 2010年遥感影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_2010_tweak.xml
+- name: 浙江 - 2009年遥感影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_2009_tweak.xml
+- name: 浙江 - 2008年遥感影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_2008_tweak.xml
+- name: 浙江 - 2006_2007年遥感影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_2006_tweak.xml
+- name: 浙江 - 2003_2005年遥感影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_2003_tweak.xml
+- name: 浙江 - 1999_2000年遥感影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_1999_tweak.xml
+- name: 浙江 - 1998_2003年遥感影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_1998_tweak.xml
+- name: 浙江 - 70年代影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_70s_tweak.xml
+- name: 浙江 - 60年代影像
+  uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&http-header:referer=https://zhejiang.tianditu.gov.cn/&layers=imgmap&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/ZJ_60s_tweak.xml
