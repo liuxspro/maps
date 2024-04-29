@@ -1,0 +1,30 @@
+- name: OpenRailwayMap Standard
+  icon: default.svg
+  url: https://a.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png
+  zmin: 0
+  zmax: 19
+  referer: ''
+- name: OpenRailwayMap Maxspeed
+  icon: default.svg
+  url: https://a.tiles.openrailwaymap.org/maxspeed/{z}/{x}/{y}.png
+  zmin: 0
+  zmax: 19
+  referer: ''
+- name: OpenRailwayMap Signals
+  icon: default.svg
+  url: https://a.tiles.openrailwaymap.org/signals/{z}/{x}/{y}.png
+  zmin: 0
+  zmax: 19
+  referer: ''
+- name: OpenRailwayMap Electrified
+  icon: default.svg
+  url: https://a.tiles.openrailwaymap.org/electrified/{z}/{x}/{y}.png
+  zmin: 0
+  zmax: 19
+  referer: ''
+- name: OpenRailwayMap Gauge
+  icon: default.svg
+  url: https://a.tiles.openrailwaymap.org/gauge/{z}/{x}/{y}.png
+  zmin: 0
+  zmax: 19
+  referer: ''

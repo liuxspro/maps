@@ -8,3 +8,4 @@ maps:
   ESRI: !include Esri.yml
   高德地图: !include Amap.yml
   Stamen Maps: !include Stamen.yml
+  OpenRailwayMap: !include OpenRaliwayMap.yml
