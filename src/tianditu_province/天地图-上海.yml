@@ -1,0 +1,16 @@
+- name: 上海-1999年影像
+  uri: crs='EPSG:4490' format='PNG32' layer='0' url='https://map4.shanghai-map.net/arcgis/rest/services/shyx1999/MapServer' http-header:referer='https://www.shanghai-map.net/' referer='https://www.shanghai-map.net/'
+- name: 上海-2017年影像
+  uri: crs='EPSG:4490' format='PNG32' layer='0' url='https://map4.shanghai-map.net/arcgis/rest/services/shyx2017/MapServer' http-header:referer='https://www.shanghai-map.net/' referer='https://www.shanghai-map.net/'
+- name: 上海-2018年影像
+  uri: crs='EPSG:4490' format='PNG32' layer='0' url='https://map4.shanghai-map.net/arcgis/rest/services/shyx2018/MapServer' http-header:referer='https://www.shanghai-map.net/' referer='https://www.shanghai-map.net/'
+- name: 上海-2019年影像
+  uri: crs='EPSG:4490' format='PNG32' layer='0' url='https://map4.shanghai-map.net/arcgis/rest/services/shyx2019/MapServer' http-header:referer='https://www.shanghai-map.net/' referer='https://www.shanghai-map.net/'
+- name: 上海-2020年影像
+  uri: crs='EPSG:4490' format='PNG32' layer='0' url='https://map4.shanghai-map.net/arcgis/rest/services/shyx2020/MapServer' http-header:referer='https://www.shanghai-map.net/' referer='https://www.shanghai-map.net/'
+- name: 上海-2021年影像
+  uri: crs='EPSG:4490' format='PNG32' layer='0' url='https://map4.shanghai-map.net/arcgis/rest/services/shyx2021/MapServer' http-header:referer='https://www.shanghai-map.net/' referer='https://www.shanghai-map.net/'
+- name: 上海-2022年影像
+  uri: crs='EPSG:4490' format='PNG32' layer='0' url='https://map4.shanghai-map.net/arcgis/rest/services/shyx2022/MapServer' http-header:referer='https://www.shanghai-map.net/' referer='https://www.shanghai-map.net/'
+- name: 上海-2023年影像
+  uri: crs='EPSG:4490' format='PNG32' layer='0' url='https://map4.shanghai-map.net/arcgis/rest/services/shyx2023/MapServer' http-header:referer='https://www.shanghai-map.net/' referer='https://www.shanghai-map.net/'
