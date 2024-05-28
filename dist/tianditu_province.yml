@@ -1,7 +1,7 @@
 info:
   id: tianditu_province
   name: 天地图省级节点
-  lastUpdated: '2024-04-22 22:13:31'
+  lastUpdated: '2024-05-28 09:06:39'
 maps:
   天地图-江苏:
     - name: 江苏-1966年影像地图
@@ -142,3 +142,28 @@ maps:
   天地图-江西:
     - name: 江西 - 2021年7-18级影像
       uri: crs=EPSG:4490&dpiMode=7&format=image/tile&layers=JX_IMG_2021_7_18&styles=JX_IMG_2021_7_18&tileMatrixSet=JX_IMG_2021_7_18_Matrix_1&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/JX_2021_tweak.xml
+  天地图-上海:
+    - name: 上海-1999年影像
+      uri: crs='EPSG:4490' format='PNG32' layer='0' url='https://map4.shanghai-map.net/arcgis/rest/services/shyx1999/MapServer'
+        http-header:referer='https://www.shanghai-map.net/' referer='https://www.shanghai-map.net/'
+    - name: 上海-2017年影像
+      uri: crs='EPSG:4490' format='PNG32' layer='0' url='https://map4.shanghai-map.net/arcgis/rest/services/shyx2017/MapServer'
+        http-header:referer='https://www.shanghai-map.net/' referer='https://www.shanghai-map.net/'
+    - name: 上海-2018年影像
+      uri: crs='EPSG:4490' format='PNG32' layer='0' url='https://map4.shanghai-map.net/arcgis/rest/services/shyx2018/MapServer'
+        http-header:referer='https://www.shanghai-map.net/' referer='https://www.shanghai-map.net/'
+    - name: 上海-2019年影像
+      uri: crs='EPSG:4490' format='PNG32' layer='0' url='https://map4.shanghai-map.net/arcgis/rest/services/shyx2019/MapServer'
+        http-header:referer='https://www.shanghai-map.net/' referer='https://www.shanghai-map.net/'
+    - name: 上海-2020年影像
+      uri: crs='EPSG:4490' format='PNG32' layer='0' url='https://map4.shanghai-map.net/arcgis/rest/services/shyx2020/MapServer'
+        http-header:referer='https://www.shanghai-map.net/' referer='https://www.shanghai-map.net/'
+    - name: 上海-2021年影像
+      uri: crs='EPSG:4490' format='PNG32' layer='0' url='https://map4.shanghai-map.net/arcgis/rest/services/shyx2021/MapServer'
+        http-header:referer='https://www.shanghai-map.net/' referer='https://www.shanghai-map.net/'
+    - name: 上海-2022年影像
+      uri: crs='EPSG:4490' format='PNG32' layer='0' url='https://map4.shanghai-map.net/arcgis/rest/services/shyx2022/MapServer'
+        http-header:referer='https://www.shanghai-map.net/' referer='https://www.shanghai-map.net/'
+    - name: 上海-2023年影像
+      uri: crs='EPSG:4490' format='PNG32' layer='0' url='https://map4.shanghai-map.net/arcgis/rest/services/shyx2023/MapServer'
+        http-header:referer='https://www.shanghai-map.net/' referer='https://www.shanghai-map.net/'
