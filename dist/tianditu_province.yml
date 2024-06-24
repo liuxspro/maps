@@ -1,7 +1,7 @@
 info:
   id: tianditu_province
   name: 天地图省级节点
-  lastUpdated: '2024-05-28 09:10:08'
+  lastUpdated: '2024-06-24 14:40:44'
 maps:
   天地图-江苏:
     - name: 江苏-1966年影像地图
@@ -48,6 +48,8 @@ maps:
       uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&layers=History_js_yxdt_2021&styles=default&tileMatrixSet=default&url=http://jiangsu.tianditu.gov.cn/historyraster/rest/services/History/js_yxdt_2021/MapServer/WMTS/1.0.0/WMTSCapabilities.xml
     - name: 江苏-2022年影像地图
       uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&layers=tdtjs_js_img2022_r05&styles=default&tileMatrixSet=default&url=http://jiangsu.tianditu.gov.cn/tdtsite05/rest/services/tdtjs/js_img2022_r05/MapServer/WMTS/1.0.0/WMTSCapabilities.xml
+    - name: 江苏-2023年影像地图
+      uri: crs=EPSG:4490&dpiMode=7&format=image/jpgpng&layers=MapJS_js_yxdt_latest&styles=default&tileMatrixSet=default&tilePixelRatio=0&url=https://jiangsu.tianditu.gov.cn/mapjs2/rest/services/MapJS/js_yxdt_latest/MapServer/WMTS/1.0.0/WMTSCapabilities.xml
   天地图-湖北:
     - name: 湖北-2015年影像地图
       uri: crs='EPSG:4490' format='PNG32' layer='0' url='http://27.17.60.13:6080/arcgis/rest/services/IMG_2015/MapServer'
