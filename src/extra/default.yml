@@ -4,7 +4,7 @@ info:
   lastUpdated:
 maps:
   谷歌地图: !include GoogleMap.yml
-  谷歌地图CN: !include GoogleMapCN.yml
+  # 谷歌地图CN: !include GoogleMapCN.yml
   ESRI: !include Esri.yml
   高德地图: !include Amap.yml
   Stamen Maps: !include Stamen.yml
