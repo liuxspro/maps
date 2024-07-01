@@ -1,7 +1,7 @@
 info:
   id: tianditu_province
   name: 天地图省级节点
-  lastUpdated: '2024-06-24 14:40:44'
+  lastUpdated: '2024-07-01 10:04:25'
 maps:
   天地图-江苏:
     - name: 江苏-1966年影像地图
@@ -177,3 +177,10 @@ maps:
       type: arcgismapserver
       uri: crs='EPSG:4490' format='PNG32' layer='0' url='https://map4.shanghai-map.net/arcgis/rest/services/shyx2023/MapServer'
         http-header:referer='https://www.shanghai-map.net/' referer='https://www.shanghai-map.net/'
+  天地图-广东:
+    - name: 广东省50万水文地质图
+      uri: IgnoreGetMapUrl=1&crs=EPSG:4490&dpiMode=7&featureCount=10&format=image/tile&layers=SWDZT_50W&styles=SWDZT_50W&tileMatrixSet=SWDZT_50W_Matrix_1&tilePixelRatio=0&url=https://guangdong.tianditu.gov.cn/geostar/SWDTZ_50W/wmts?USERECENT%3Dfalse%26SERVICE%3DWMTS%26REQUEST%3DGetCapabilities
+    - name: 广东省50万基础地质图
+      uri: IgnoreGetMapUrl=1&crs=EPSG:4490&dpiMode=7&featureCount=10&format=image/tile&layers=JCDZT_50W&styles=JCDZT_50W&tileMatrixSet=JCDZT_50W_Matrix_1&tilePixelRatio=0&url=https://guangdong.tianditu.gov.cn/geostar/JCDTZ_50W/wmts?USERECENT%3Dfalse%26SERVICE%3DWMTS%26REQUEST%3DGetCapabilities
+    - name: 广东省生态保护红线
+      uri: IgnoreGetMapUrl=1&crs=EPSG:4490&dpiMode=7&featureCount=10&format=image/tile&layers=GDSTBHHX&styles=GDSTBHHX&tileMatrixSet=GDSTBHHX_Matrix_1&tilePixelRatio=0&url=https://guangdong.tianditu.gov.cn/geostar/GDSTBHHX/wmts?USERECENT%3Dfalse%26SERVICE%3DWMTS%26REQUEST%3DGetCapabilities
