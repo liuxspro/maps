@@ -9,3 +9,4 @@ maps:
   天地图-安徽（有偏移）: !include 天地图-安徽（有偏移）.yml
   天地图-江西: !include 天地图-江西.yml
   天地图-上海: !include 天地图-上海.yml
+  天地图-广东: !include 天地图-广东.yml
