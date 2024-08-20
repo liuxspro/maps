@@ -1,0 +1,14 @@
+- name: 福建 - 2016年影像
+  uri: crs=EPSG:4490&dpiMode=7&featureCount=10&format=tiles&layers=IMG_FJ&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/FJ/2016.xml
+- name: 福建 - 2017年影像
+  uri: crs=EPSG:4490&dpiMode=7&featureCount=10&format=tiles&layers=IMG_FJ&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/FJ/2017.xml
+- name: 福建 - 2018年影像
+  uri: crs=EPSG:4490&dpiMode=7&featureCount=10&format=tiles&layers=IMG_FJ&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/FJ/2018.xml
+- name: 福建 - 2019年影像
+  uri: crs=EPSG:4490&dpiMode=7&featureCount=10&format=tiles&layers=IMG_FJ&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/FJ/2019.xml
+- name: 福建 - 2020年影像
+  uri: crs=EPSG:4490&dpiMode=7&featureCount=10&format=tiles&layers=IMG_FJ&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/FJ/2020.xml
+- name: 福建 - 2021年影像
+  uri: crs=EPSG:4490&dpiMode=7&featureCount=10&format=tiles&layers=IMG_FJ&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/FJ/2021.xml
+- name: 福建 - 2022年影像
+  uri: crs=EPSG:4490&dpiMode=7&featureCount=10&format=tiles&layers=IMG_FJ&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/FJ/2022.xml
