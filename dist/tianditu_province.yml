@@ -1,7 +1,7 @@
 info:
   id: tianditu_province
   name: 天地图省级节点
-  lastUpdated: '2024-07-01 10:04:25'
+  lastUpdated: '2024-08-20 21:48:18'
 maps:
   天地图-江苏:
     - name: 江苏-1966年影像地图
@@ -184,3 +184,18 @@ maps:
       uri: IgnoreGetMapUrl=1&crs=EPSG:4490&dpiMode=7&featureCount=10&format=image/tile&layers=JCDZT_50W&styles=JCDZT_50W&tileMatrixSet=JCDZT_50W_Matrix_1&tilePixelRatio=0&url=https://guangdong.tianditu.gov.cn/geostar/JCDTZ_50W/wmts?USERECENT%3Dfalse%26SERVICE%3DWMTS%26REQUEST%3DGetCapabilities
     - name: 广东省生态保护红线
       uri: IgnoreGetMapUrl=1&crs=EPSG:4490&dpiMode=7&featureCount=10&format=image/tile&layers=GDSTBHHX&styles=GDSTBHHX&tileMatrixSet=GDSTBHHX_Matrix_1&tilePixelRatio=0&url=https://guangdong.tianditu.gov.cn/geostar/GDSTBHHX/wmts?USERECENT%3Dfalse%26SERVICE%3DWMTS%26REQUEST%3DGetCapabilities
+  天地图-福建:
+    - name: 福建 - 2016年影像
+      uri: crs=EPSG:4490&dpiMode=7&featureCount=10&format=tiles&layers=IMG_FJ&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/FJ/2016.xml
+    - name: 福建 - 2017年影像
+      uri: crs=EPSG:4490&dpiMode=7&featureCount=10&format=tiles&layers=IMG_FJ&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/FJ/2017.xml
+    - name: 福建 - 2018年影像
+      uri: crs=EPSG:4490&dpiMode=7&featureCount=10&format=tiles&layers=IMG_FJ&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/FJ/2018.xml
+    - name: 福建 - 2019年影像
+      uri: crs=EPSG:4490&dpiMode=7&featureCount=10&format=tiles&layers=IMG_FJ&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/FJ/2019.xml
+    - name: 福建 - 2020年影像
+      uri: crs=EPSG:4490&dpiMode=7&featureCount=10&format=tiles&layers=IMG_FJ&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/FJ/2020.xml
+    - name: 福建 - 2021年影像
+      uri: crs=EPSG:4490&dpiMode=7&featureCount=10&format=tiles&layers=IMG_FJ&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/FJ/2021.xml
+    - name: 福建 - 2022年影像
+      uri: crs=EPSG:4490&dpiMode=7&featureCount=10&format=tiles&layers=IMG_FJ&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/FJ/2022.xml
