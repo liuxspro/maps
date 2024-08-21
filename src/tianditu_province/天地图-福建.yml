@@ -11,4 +11,4 @@
 - name: 福建 - 2021年影像
   uri: crs=EPSG:4490&dpiMode=7&featureCount=10&format=tiles&layers=IMG_FJ&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/FJ/2021.xml
 - name: 福建 - 2022年影像
-  uri: crs=EPSG:4490&dpiMode=7&featureCount=10&format=tiles&layers=IMG_FJ&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/FJ/2022.xml
+  uri: crs=EPSG:4490&dpiMode=7&featureCount=10&format=tiles&layers=img_fj&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/FJ/2022.xml
