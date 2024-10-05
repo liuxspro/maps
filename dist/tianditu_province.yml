@@ -1,8 +1,23 @@
 info:
   id: tianditu_province
   name: 天地图省级节点
-  lastUpdated: '2024-08-21 16:25:59'
+  lastUpdated: '2024-10-05 12:24:57'
 maps:
+  天地图-北京:
+    - name: 北京 - 2024年01月影像
+      uri: type=xyz&url=https://beijing.tianditu.gov.cn/iserver/services/map-2022_img/rest/maps/tdt_img_202401/zxyTileImage/%7Bz%7D/%7Bx%7D/%7By%7D.png?width%3D256%26height%3D256%26transparent%3Dtrue&zmax=18&zmin=7
+    - name: 北京 - 2023年06月影像
+      uri: type=xyz&url=https://beijing.tianditu.gov.cn/iserver/services/map-2022_img/rest/maps/tdt_img_202306/zxyTileImage/%7Bz%7D/%7Bx%7D/%7By%7D.png?width%3D256%26height%3D256%26transparent%3Dtrue&zmax=18&zmin=7
+    - name: 北京 - 2023年03月影像
+      uri: type=xyz&url=https://beijing.tianditu.gov.cn/iserver/services/map-2022_img/rest/maps/tdt_img_202303/zxyTileImage/%7Bz%7D/%7Bx%7D/%7By%7D.png?width%3D256%26height%3D256%26transparent%3Dtrue&zmax=18&zmin=7
+    - name: 北京 - 2022年12月影像
+      uri: type=xyz&url=https://beijing.tianditu.gov.cn/iserver/services/map-2022_img/rest/maps/tdt_img_202212/zxyTileImage/%7Bz%7D/%7Bx%7D/%7By%7D.png?width%3D256%26height%3D256%26transparent%3Dtrue&zmax=18&zmin=7
+    - name: 北京 - 2022年09月影像
+      uri: type=xyz&url=https://beijing.tianditu.gov.cn/iserver/services/map-2022_img/rest/maps/tdt_img_202209/zxyTileImage/%7Bz%7D/%7Bx%7D/%7By%7D.png?width%3D256%26height%3D256%26transparent%3Dtrue&zmax=18&zmin=7
+    - name: 北京 - 2022年06月影像
+      uri: type=xyz&url=https://beijing.tianditu.gov.cn/iserver/services/map-2022_img/rest/maps/tdt_img_202206/zxyTileImage/%7Bz%7D/%7Bx%7D/%7By%7D.png?width%3D256%26height%3D256%26transparent%3Dtrue&zmax=18&zmin=7
+    - name: 北京 - 2022年03月影像
+      uri: type=xyz&url=https://beijing.tianditu.gov.cn/iserver/services/map-2022_img/rest/maps/tdt_img_202203/zxyTileImage/%7Bz%7D/%7Bx%7D/%7By%7D.png?width%3D256%26height%3D256%26transparent%3Dtrue&zmax=18&zmin=7
   天地图-江苏:
     - name: 江苏-1966年影像地图
       uri: crs=EPSG:4326&dpiMode=7&format=image/jpgpng&layers=History_yxdt_js_1966&styles=default&tileMatrixSet=default&tilePixelRatio=0&url=http://jiangsu.tianditu.gov.cn/historyraster/rest/services/History/yxdt_js_1966/MapServer/WMTS/1.0.0/WMTSCapabilities.xml
