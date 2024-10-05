@@ -1,0 +1,14 @@
+- name: 北京 - 2024年01月影像
+  uri: type=xyz&url=https://beijing.tianditu.gov.cn/iserver/services/map-2022_img/rest/maps/tdt_img_202401/zxyTileImage/%7Bz%7D/%7Bx%7D/%7By%7D.png?width%3D256%26height%3D256%26transparent%3Dtrue&zmax=18&zmin=7
+- name: 北京 - 2023年06月影像
+  uri: type=xyz&url=https://beijing.tianditu.gov.cn/iserver/services/map-2022_img/rest/maps/tdt_img_202306/zxyTileImage/%7Bz%7D/%7Bx%7D/%7By%7D.png?width%3D256%26height%3D256%26transparent%3Dtrue&zmax=18&zmin=7
+- name: 北京 - 2023年03月影像
+  uri: type=xyz&url=https://beijing.tianditu.gov.cn/iserver/services/map-2022_img/rest/maps/tdt_img_202303/zxyTileImage/%7Bz%7D/%7Bx%7D/%7By%7D.png?width%3D256%26height%3D256%26transparent%3Dtrue&zmax=18&zmin=7
+- name: 北京 - 2022年12月影像
+  uri: type=xyz&url=https://beijing.tianditu.gov.cn/iserver/services/map-2022_img/rest/maps/tdt_img_202212/zxyTileImage/%7Bz%7D/%7Bx%7D/%7By%7D.png?width%3D256%26height%3D256%26transparent%3Dtrue&zmax=18&zmin=7
+- name: 北京 - 2022年09月影像
+  uri: type=xyz&url=https://beijing.tianditu.gov.cn/iserver/services/map-2022_img/rest/maps/tdt_img_202209/zxyTileImage/%7Bz%7D/%7Bx%7D/%7By%7D.png?width%3D256%26height%3D256%26transparent%3Dtrue&zmax=18&zmin=7
+- name: 北京 - 2022年06月影像
+  uri: type=xyz&url=https://beijing.tianditu.gov.cn/iserver/services/map-2022_img/rest/maps/tdt_img_202206/zxyTileImage/%7Bz%7D/%7Bx%7D/%7By%7D.png?width%3D256%26height%3D256%26transparent%3Dtrue&zmax=18&zmin=7
+- name: 北京 - 2022年03月影像
+  uri: type=xyz&url=https://beijing.tianditu.gov.cn/iserver/services/map-2022_img/rest/maps/tdt_img_202203/zxyTileImage/%7Bz%7D/%7Bx%7D/%7By%7D.png?width%3D256%26height%3D256%26transparent%3Dtrue&zmax=18&zmin=7
