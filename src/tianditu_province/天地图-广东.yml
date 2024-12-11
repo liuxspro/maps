@@ -3,7 +3,7 @@
 - name: 广东省50万基础地质图
   uri: IgnoreGetMapUrl=1&crs=EPSG:4490&dpiMode=7&featureCount=10&format=image/tile&layers=JCDZT_50W&styles=JCDZT_50W&tileMatrixSet=JCDZT_50W_Matrix_1&tilePixelRatio=0&url=https://guangdong.tianditu.gov.cn/geostar/JCDTZ_50W/wmts?USERECENT%3Dfalse%26SERVICE%3DWMTS%26REQUEST%3DGetCapabilities
 - name: 广东省生态保护红线
-  uri: IgnoreGetMapUrl=1&crs=EPSG:4490&dpiMode=7&featureCount=10&format=image/tile&layers=GDSTBHHX&styles=GDSTBHHX&tileMatrixSet=GDSTBHHX_Matrix_1&tilePixelRatio=0&url=https://guangdong.tianditu.gov.cn/geostar/GDSTBHHX/wmts?USERECENT%3Dfalse%26SERVICE%3DWMTS%26REQUEST%3DGetCapabilities
+  uri: crs=EPSG:4326&dpiMode=7&featureCount=10&format=image/png&layers=广东省生态保护红线&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/GD/gd.xml
 - name: 广东省永久基本农田保护图斑
   uri: crs=EPSG:4326&dpiMode=7&featureCount=10&format=image/png&layers=广东省永久基本农田保护图斑&styles=default&tileMatrixSet=default028mm&tilePixelRatio=0&url=https://maps.liuxs.pro/tweak/GD/gd.xml
 - name: 广东省三区三线专题图
