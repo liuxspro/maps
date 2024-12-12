@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<Capabilities xmlns="http://www.opengis.net/wmts/1.0"
+    xmlns:ows="http://www.opengis.net/ows/1.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gml="http://www.opengis.net/gml"
+    xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"
+    version="1.0.0">
+    <ows:ServiceIdentification>
+        <ows:Title>广东天地图 WMTS</ows:Title>
+        <ows:Abstract>广东天地图 WMTS 服务</ows:Abstract>
+        <ows:ServiceType>OGC WMTS</ows:ServiceType>
+        <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
+        <ows:Fees>none</ows:Fees>
+        <ows:AccessConstraints>none</ows:AccessConstraints>
+    </ows:ServiceIdentification>
+    <Contents>
+        <Layer>
+            <ows:Title>广东省2015年影像电子地图</ows:Title>
+            <ows:Abstract>广东省2015年影像电子地图</ows:Abstract>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>106.875 19.6875</ows:LowerCorner>
+                <ows:UpperCorner>118.125 28.125</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+            <ows:Identifier>广东省2015年影像电子地图</ows:Identifier>
+            <Style>
+                <ows:Identifier>default</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>default028mm</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png" resourceType="tile"
+                template="https://guangdong.tianditu.gov.cn/server/DOM_2000_2015_GK/DataServer?l={TileMatrix}&amp;x={TileCol}&amp;y={TileRow}" />
+        </Layer>
+        <Layer>
+            <ows:Title>广东省2018年影像电子地图</ows:Title>
+            <ows:Abstract>广东省2018年影像电子地图</ows:Abstract>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>106.875 19.6875</ows:LowerCorner>
+                <ows:UpperCorner>118.125 28.125</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+            <ows:Identifier>广东省2018年影像电子地图</ows:Identifier>
+            <Style>
+                <ows:Identifier>default</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>default028mm</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png" resourceType="tile"
+                template="https://guangdong.tianditu.gov.cn/server/DOM_2018/DataServer?l={TileMatrix}&amp;x={TileCol}&amp;y={TileRow}" />
+        </Layer>
+        <Layer>
+            <ows:Title>广东省2019年影像电子地图</ows:Title>
+            <ows:Abstract>广东省2019年影像电子地图</ows:Abstract>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>106.875 19.6875</ows:LowerCorner>
+                <ows:UpperCorner>118.125 28.125</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+            <ows:Identifier>广东省2019年影像电子地图</ows:Identifier>
+            <Style>
+                <ows:Identifier>default</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>default028mm</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png" resourceType="tile"
+                template="https://guangdong.tianditu.gov.cn/server/DOM_2019/DataServer?l={TileMatrix}&amp;x={TileCol}&amp;y={TileRow}" />
+        </Layer>
+        <Layer>
+            <ows:Title>广东省2020年影像电子地图</ows:Title>
+            <ows:Abstract>广东省2020年影像电子地图</ows:Abstract>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>106.875 19.6875</ows:LowerCorner>
+                <ows:UpperCorner>118.125 28.125</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+            <ows:Identifier>广东省2020年影像电子地图</ows:Identifier>
+            <Style>
+                <ows:Identifier>default</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>default028mm</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png" resourceType="tile"
+                template="https://guangdong.tianditu.gov.cn/server/DOM_2020/DataServer?l={TileMatrix}&amp;x={TileCol}&amp;y={TileRow}" />
+        </Layer>
+        <Layer>
+            <ows:Title>广东省2021年影像电子地图</ows:Title>
+            <ows:Abstract>广东省2021年影像电子地图</ows:Abstract>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>106.875 19.6875</ows:LowerCorner>
+                <ows:UpperCorner>118.125 28.125</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+            <ows:Identifier>广东省2021年影像电子地图</ows:Identifier>
+            <Style>
+                <ows:Identifier>default</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>default028mm</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png" resourceType="tile"
+                template="https://guangdong.tianditu.gov.cn/server/DOM_2021/DataServer?l={TileMatrix}&amp;x={TileCol}&amp;y={TileRow}" />
+        </Layer>
+        <Layer>
+            <ows:Title>广东省2022年影像电子地图</ows:Title>
+            <ows:Abstract>广东省2022年影像电子地图</ows:Abstract>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>106.875 19.6875</ows:LowerCorner>
+                <ows:UpperCorner>118.125 28.125</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+            <ows:Identifier>广东省2022年影像电子地图</ows:Identifier>
+            <Style>
+                <ows:Identifier>default</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>default028mm</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png" resourceType="tile"
+                template="https://guangdong.tianditu.gov.cn/server/DOM_2022/DataServer?l={TileMatrix}&amp;x={TileCol}&amp;y={TileRow}" />
+        </Layer>
+        <!-- 瓦片矩阵集 -->
+        <TileMatrixSet>
+            <ows:Identifier>default028mm</ows:Identifier>
+            <ows:SupportedCRS>urn:ogc:def:crs:EPSG::4326</ows:SupportedCRS>
+            <TileMatrix>
+                <ows:Identifier>7</ows:Identifier>
+                <ScaleDenominator>4367830.269199428</ScaleDenominator>
+                <TopLeftCorner>90 -180</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>106</MatrixWidth>
+                <MatrixHeight>25</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>8</ows:Identifier>
+                <ScaleDenominator>2183915.1345997187</ScaleDenominator>
+                <TopLeftCorner>90 -180</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>212</MatrixWidth>
+                <MatrixHeight>50</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>9</ows:Identifier>
+                <ScaleDenominator>1091957.5672998547</ScaleDenominator>
+                <TopLeftCorner>90 -180</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>423</MatrixWidth>
+                <MatrixHeight>100</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>10</ows:Identifier>
+                <ScaleDenominator>545978.7836499291</ScaleDenominator>
+                <TopLeftCorner>90 -180</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>846</MatrixWidth>
+                <MatrixHeight>199</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>11</ows:Identifier>
+                <ScaleDenominator>272989.39182496455</ScaleDenominator>
+                <TopLeftCorner>90 -180</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>1691</MatrixWidth>
+                <MatrixHeight>397</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>12</ows:Identifier>
+                <ScaleDenominator>136494.69591248184</ScaleDenominator>
+                <TopLeftCorner>90 -180</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>3382</MatrixWidth>
+                <MatrixHeight>794</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>13</ows:Identifier>
+                <ScaleDenominator>68247.34795624111</ScaleDenominator>
+                <TopLeftCorner>90 -180</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>6763</MatrixWidth>
+                <MatrixHeight>1588</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>14</ows:Identifier>
+                <ScaleDenominator>34123.673978120605</ScaleDenominator>
+                <TopLeftCorner>90 -180</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>13526</MatrixWidth>
+                <MatrixHeight>3175</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>15</ows:Identifier>
+                <ScaleDenominator>17061.836989060303</ScaleDenominator>
+                <TopLeftCorner>90 -180</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>27051</MatrixWidth>
+                <MatrixHeight>6350</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>16</ows:Identifier>
+                <ScaleDenominator>8530.91849453014</ScaleDenominator>
+                <TopLeftCorner>90 -180</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>54272</MatrixWidth>
+                <MatrixHeight>12800</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>17</ows:Identifier>
+                <ScaleDenominator>4265.45924726507</ScaleDenominator>
+                <TopLeftCorner>90 -180</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>108544</MatrixWidth>
+                <MatrixHeight>25600</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>18</ows:Identifier>
+                <ScaleDenominator>2132.729623632535</ScaleDenominator>
+                <TopLeftCorner>90 -180</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>217088</MatrixWidth>
+                <MatrixHeight>51200</MatrixHeight>
+            </TileMatrix>
+        </TileMatrixSet>
+    </Contents>
+</Capabilities>
