@@ -12,18 +12,6 @@
     "url": "https://service.sdmap.gov.cn/hisimage/weipian20031W"
   },
   {
-    "type": "鍗\ue0a4墖",
-    "st": 20220404,
-    "et": 0,
-    "sl": 0,
-    "el": 9,
-    "reso": 30,
-    "cam": "Landsat",
-    "name": "2024年2季度主影像",
-    "lid": "9999",
-    "url": "https://service.sdmap.gov.cn/tileservice/sdrasterpubmap"
-  },
-  {
     "type": "卫片",
     "st": 20240909,
     "et": 0,
