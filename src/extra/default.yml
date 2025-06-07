@@ -4,6 +4,7 @@ info:
   lastUpdated:
 maps:
   谷歌地图: !include GoogleMap.yml
+  谷谷GIS: !include gggis.yml
   # 谷歌地图CN: !include GoogleMapCN.yml
   ESRI: !include Esri.yml
   高德地图: !include Amap.yml
