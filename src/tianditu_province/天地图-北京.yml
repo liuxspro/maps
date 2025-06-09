@@ -1,14 +1,36 @@
-- name: 北京 - 2024年01月影像
-  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=bj_202401&styles=default&tileMatrixSet=GLOBAL_WEBMERCATOR&tilePixelRatio=0&url=https://maps.liuxs.pro/wmts/static/beijing.xml
-- name: 北京 - 2023年06月影像
-  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=bj_202306&styles=default&tileMatrixSet=GLOBAL_WEBMERCATOR&tilePixelRatio=0&url=https://maps.liuxs.pro/wmts/static/beijing.xml
-- name: 北京 - 2023年03月影像
-  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=bj_202303&styles=default&tileMatrixSet=GLOBAL_WEBMERCATOR&tilePixelRatio=0&url=https://maps.liuxs.pro/wmts/static/beijing.xml
-- name: 北京 - 2022年12月影像
-  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=bj_202212&styles=default&tileMatrixSet=GLOBAL_WEBMERCATOR&tilePixelRatio=0&url=https://maps.liuxs.pro/wmts/static/beijing.xml
-- name: 北京 - 2022年09月影像
-  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=bj_202209&styles=default&tileMatrixSet=GLOBAL_WEBMERCATOR&tilePixelRatio=0&url=https://maps.liuxs.pro/wmts/static/beijing.xml
-- name: 北京 - 2022年06月影像
-  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=bj_202206&styles=default&tileMatrixSet=GLOBAL_WEBMERCATOR&tilePixelRatio=0&url=https://maps.liuxs.pro/wmts/static/beijing.xml
+- name: 北京 - 1951年影像
+  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=tdt_img_1951&styles=default&tileMatrixSet=WebMercatorQuad&tilePixelRatio=0&url=https://wmts.liuxs.pro/dist/beijing.xml
+- name: 北京 - 1966年影像
+  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=tdt_img_1966&styles=default&tileMatrixSet=WebMercatorQuad&tilePixelRatio=0&url=https://wmts.liuxs.pro/dist/beijing.xml
+- name: 北京 - 1996年影像
+  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=tdt_img_1996&styles=default&tileMatrixSet=WebMercatorQuad&tilePixelRatio=0&url=https://wmts.liuxs.pro/dist/beijing.xml
 - name: 北京 - 2022年03月影像
-  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=bj_202203&styles=default&tileMatrixSet=GLOBAL_WEBMERCATOR&tilePixelRatio=0&url=https://maps.liuxs.pro/wmts/static/beijing.xml
+  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=tdt_img_202203&styles=default&tileMatrixSet=WebMercatorQuad&tilePixelRatio=0&url=https://wmts.liuxs.pro/dist/beijing.xml
+- name: 北京 - 2022年06月影像
+  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=tdt_img_202206&styles=default&tileMatrixSet=WebMercatorQuad&tilePixelRatio=0&url=https://wmts.liuxs.pro/dist/beijing.xml
+- name: 北京 - 2022年09月影像
+  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=tdt_img_202209&styles=default&tileMatrixSet=WebMercatorQuad&tilePixelRatio=0&url=https://wmts.liuxs.pro/dist/beijing.xml
+- name: 北京 - 2022年12月影像
+  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=tdt_img_202212&styles=default&tileMatrixSet=WebMercatorQuad&tilePixelRatio=0&url=https://wmts.liuxs.pro/dist/beijing.xml
+- name: 北京 - 2023年01月影像
+  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=tdt_img_202301&styles=default&tileMatrixSet=WebMercatorQuad&tilePixelRatio=0&url=https://wmts.liuxs.pro/dist/beijing.xml
+- name: 北京 - 2023年02月影像
+  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=tdt_img_202302&styles=default&tileMatrixSet=WebMercatorQuad&tilePixelRatio=0&url=https://wmts.liuxs.pro/dist/beijing.xml
+- name: 北京 - 2023年03月影像
+  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=tdt_img_202303&styles=default&tileMatrixSet=WebMercatorQuad&tilePixelRatio=0&url=https://wmts.liuxs.pro/dist/beijing.xml
+- name: 北京 - 2023年04月影像
+  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=tdt_img_202304&styles=default&tileMatrixSet=WebMercatorQuad&tilePixelRatio=0&url=https://wmts.liuxs.pro/dist/beijing.xml
+- name: 北京 - 2023年05月影像
+  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=tdt_img_202305&styles=default&tileMatrixSet=WebMercatorQuad&tilePixelRatio=0&url=https://wmts.liuxs.pro/dist/beijing.xml
+- name: 北京 - 2023年06月影像
+  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=tdt_img_202306&styles=default&tileMatrixSet=WebMercatorQuad&tilePixelRatio=0&url=https://wmts.liuxs.pro/dist/beijing.xml
+- name: 北京 - 2024年01月影像
+  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=tdt_img_202401&styles=default&tileMatrixSet=WebMercatorQuad&tilePixelRatio=0&url=https://wmts.liuxs.pro/dist/beijing.xml
+- name: 北京 - 2024年03月影像
+  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=tdt_img_202403&styles=default&tileMatrixSet=WebMercatorQuad&tilePixelRatio=0&url=https://wmts.liuxs.pro/dist/beijing.xml
+- name: 北京 - 2024年04月影像
+  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=tdt_img_202404&styles=default&tileMatrixSet=WebMercatorQuad&tilePixelRatio=0&url=https://wmts.liuxs.pro/dist/beijing.xml
+- name: 北京 - 2024年05月影像
+  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=tdt_img_202405&styles=default&tileMatrixSet=WebMercatorQuad&tilePixelRatio=0&url=https://wmts.liuxs.pro/dist/beijing.xml
+- name: 北京 - 2024年06月影像
+  uri: crs=EPSG:3857&dpiMode=7&featureCount=10&format=image/png&layers=tdt_img_202406&styles=default&tileMatrixSet=WebMercatorQuad&tilePixelRatio=0&url=https://wmts.liuxs.pro/dist/beijing.xml
