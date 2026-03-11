@@ -1,13 +1,8 @@
 from pathlib import Path
 
 import yaml
-
-# from yamlinclude import YamlIncludeConstructor
 import yaml_include
 from utils import calculate_sha256_hash, get_time, get_yaml_data, save_yaml
-
-# Register the include tag
-
 
 SRC_DIR = Path(__file__).parent.parent.joinpath("src")
 DIST_DIR = Path(__file__).parent.parent.joinpath("dist")
