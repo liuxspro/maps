@@ -1,8 +1,13 @@
 from pathlib import Path
 
 import yaml
+
+# from yamlinclude import YamlIncludeConstructor
+import yaml_include
 from utils import calculate_sha256_hash, get_time, get_yaml_data, save_yaml
-from yamlinclude import YamlIncludeConstructor
+
+# Register the include tag
+
 
 SRC_DIR = Path(__file__).parent.parent.joinpath("src")
 DIST_DIR = Path(__file__).parent.parent.joinpath("dist")
@@ -36,11 +41,15 @@ def pack(config):
     name = config["name"]
     if config["type"] == "folder":
         print(f"📦 Pack 📁 {name}/")
-        YamlIncludeConstructor.add_to_loader_class(
-            loader_class=yaml.FullLoader, base_dir=config["path"]
+        yaml.add_constructor(
+            "!include", yaml_include.Constructor(base_dir=config["path"])
         )
+        # YamlIncludeConstructor.add_to_loader_class(
+        #     loader_class=yaml.FullLoader, base_dir=config["path"]
+        # )
         with open(config["path"].joinpath("default.yml"), "r", encoding="utf-8") as f:
-            data = yaml.load(f, Loader=yaml.FullLoader)
+            # data = yaml.load(f, Loader=yaml.FullLoader)
+            data = yaml.full_load(f)
             data_hash = calculate_sha256_hash(str(data))
             save_path = DIST_DIR.joinpath(f"{name}.yml")
             current_time = get_time()
